@@ -1,0 +1,25 @@
+
+# Generated using pyarchetype template
+# pip install pyarchetype
+# git clone https://github.com/redcorjo/pyarchetype.git
+# Editors
+.vscode/
+.idea/
+
+# Vagrant
+.vagrant/
+
+# Mac/OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+dist
+tmp
+.vscode
+.venv
+*.pyc
+src/app.egg-info
+.pypirc
+ 
