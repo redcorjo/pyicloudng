@@ -4,7 +4,7 @@ import base64
 from urllib.parse import urlencode
 
 from datetime import datetime, timezone
-from pyicloud.exceptions import PyiCloudServiceNotActivatedException
+from pyicloudng.exceptions import PyiCloudServiceNotActivatedException
 
 
 class PhotosService:

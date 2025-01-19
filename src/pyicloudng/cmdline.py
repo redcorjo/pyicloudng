@@ -9,8 +9,8 @@ import sys
 
 from click import confirm
 
-from pyicloud import PyiCloudService
-from pyicloud.exceptions import PyiCloudFailedLoginException
+from pyicloudng import PyiCloudService
+from pyicloudng.exceptions import PyiCloudFailedLoginException
 from . import utils
 
 DEVICE_ERROR = "Please use the --device switch to indicate which device to use."

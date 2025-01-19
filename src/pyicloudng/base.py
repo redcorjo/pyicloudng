@@ -13,13 +13,13 @@ import srp
 import base64
 import hashlib
 
-from pyicloud.exceptions import (
+from pyicloudng.exceptions import (
     PyiCloudFailedLoginException,
     PyiCloudAPIResponseException,
     PyiCloud2SARequiredException,
     PyiCloudServiceNotActivatedException,
 )
-from pyicloud.services import (
+from pyicloudng.services import (
     FindMyiPhoneServiceManager,
     CalendarService,
     UbiquityService,
@@ -29,7 +29,7 @@ from pyicloud.services import (
     AccountService,
     DriveService,
 )
-from pyicloud.utils import get_password_from_keyring
+from pyicloudng.utils import get_password_from_keyring
 
 
 LOGGER = logging.getLogger(__name__)

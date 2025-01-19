@@ -22,4 +22,4 @@ tmp
 *.pyc
 src/app.egg-info
 .pypirc
- 
+src/pyicloudng.egg-info

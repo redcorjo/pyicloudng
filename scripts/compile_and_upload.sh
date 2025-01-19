@@ -7,7 +7,7 @@
 BASE_DIR=$(dirname $0)/..
 TWINE_CONFIG=$(dirname $0)/../.pypirc
 PYTHON=python3.9
-PACKAGE=app
+PACKAGE=pyicloudng
 
 cd ${BASE_DIR}
 

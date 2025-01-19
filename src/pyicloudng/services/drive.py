@@ -9,7 +9,7 @@ import time
 from re import search
 from requests import Response
 
-from pyicloud.exceptions import PyiCloudAPIResponseException
+from pyicloudng.exceptions import PyiCloudAPIResponseException
 
 
 LOGGER = logging.getLogger(__name__)

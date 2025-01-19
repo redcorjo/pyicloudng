@@ -7,9 +7,10 @@
 BASE_DIR=$(dirname $0)/..
 TWINE_CONFIG=$(dirname $0)/../.pypirc
 PYTHON=python3.9
-PACKAGE=app
+PACKAGE=pyicloudng
 
 cd ${BASE_DIR}
+pwd
 
 echo "Cleanup old dist files"
 test -e ${BASE_DIR}/dist/*.whl && rm ${BASE_DIR}/dist/* 

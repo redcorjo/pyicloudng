@@ -1,7 +1,7 @@
 """Account service."""
 from collections import OrderedDict
 
-from pyicloud.utils import underscore_to_camelcase
+from pyicloudng.utils import underscore_to_camelcase
 
 
 class AccountService:

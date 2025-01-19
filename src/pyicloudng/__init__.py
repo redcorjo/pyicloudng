@@ -1,5 +1,5 @@
-"""The pyiCloud library."""
+"""The pyiCloudNg library."""
 import logging
-from pyicloud.base import PyiCloudService
+from pyicloudng.base import PyiCloudService
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())

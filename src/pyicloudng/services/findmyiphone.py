@@ -1,7 +1,7 @@
 """Find my iPhone service."""
 import json
 
-from pyicloud.exceptions import PyiCloudNoDevicesException
+from pyicloudng.exceptions import PyiCloudNoDevicesException
 
 
 class FindMyiPhoneServiceManager:

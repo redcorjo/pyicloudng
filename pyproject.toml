@@ -22,13 +22,17 @@ dependencies = [
 "keyrings.alt>=3.5.2",
 "click>=7.1.2",
 "tzlocal>=4.0",
-"certifi>=2020.6.20"
+"certifi>=2020.6.20",
+"srp"
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/user/pyicloudng"
-"Bug Tracker" = "https://github.com/user/pyicloudng/issues"
+"Homepage" = "https://github.com/redcorjo/pyicloudng"
+"Bug Tracker" = "https://github.com/redcorjo/pyicloudng/issues"
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pyicloudng = "pyicloudng.cmdline:main"
